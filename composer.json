@@ -1,5 +1,5 @@
 {
-  "name": "box/protobuf-sdk",
+  "name": "box/first-sdk",
   "license": "MIT",
   "require": {
     "moolex/protobuf-php": "^3.5"
