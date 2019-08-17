@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protoc.box.goods;
+
+message Request {
+    int32 id = 1;
+    string name = 2;
+}
+
+message Response {
+    string name = 1;
+}
+
+service Goods {
+    rpc get(Request) returns (Response);
+}
